@@ -18,6 +18,8 @@ public class estruturaEnquanto02 {
                 idade = entrada.nextInt();
                 calculo = calculo + idade;
                 pessoas++;
+                System.out.println("digite uma idade = ");
+
             }
         }
          media = calculo / pessoas;
