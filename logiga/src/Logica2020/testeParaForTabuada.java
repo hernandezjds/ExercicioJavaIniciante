@@ -2,14 +2,13 @@ package Logica2020;
 
 import java.util.Scanner;
 
-public class testeParaFor01 {
+public class testeParaForTabuada {
     public static void main(String[] args) {
-        int i, num, x, soma=0;
-
+        int soma=0,numero,x,i;
         Scanner entrada = new Scanner(System.in);
-        System.out.println("digite um numero  : ");
-        num = entrada.nextInt();
-        for (i = 1; i <= num;i++)
+        numero = entrada.nextInt();
+        System.out.println("digite um numero = ");
+        for (i =1; i >= numero; i++);
         {
             System.out.println("digite um numero  : ");
             x = entrada.nextInt();
@@ -17,6 +16,5 @@ public class testeParaFor01 {
 
         }
         System.out.println("valor de = "+soma);
-
     }
 }
