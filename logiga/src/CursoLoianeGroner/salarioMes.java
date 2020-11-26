@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class salarioMes {
     public static void main(String[] args) {
-        double valorHoras, horasTrabalhadas=0, salarioFinal;
+        double valorHoras, horasTrabalhadas, salarioFinal;
         Scanner entrada = new Scanner(System.in);
         System.out.println("digite valor da hora..: ");
         valorHoras = entrada.nextDouble();

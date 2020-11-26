@@ -4,15 +4,13 @@ import java.util.Scanner;
 
 public class areaQuadrado {
     public static void main(String[] args) {
-        double base, altura, area;
+        double area,lado;
         Scanner entrada = new Scanner(System.in);
         System.out.println("digite base do quadrado..: ");
-        base = entrada.nextDouble();
-        System.out.println("digite base do altura..: ");
-        altura = entrada.nextDouble();
-        area = base * altura;
+        lado = entrada.nextDouble();
+
+       area= Math.pow(lado,2);
         System.out.println("area do quadrado e de ..:"+area);
-        area = area * 2;
-        System.out.println("o doblo da area e ..: "+area);
+        System.out.println("o doblo da area e ..: "+(area * 2));
     }
 }
