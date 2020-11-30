@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class SalarioOpcao003 {
     public static void main(String[] args) {
-        Scanner entrada;
-        entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
         double salario, novoSalario,auxilioEscola ,bonificacao;
         System.out.println("digite o salario do funcionario.:");
         salario = entrada.nextDouble();
